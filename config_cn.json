@@ -1,0 +1,79 @@
+{
+  "version": "1.0",
+  "install_dir": "~/.claude",
+  "log_file": "install.log",
+  "modules": {
+    "bmad-cn": {
+      "enabled": true,
+      "description": "BMAD 敏捷工作流（中文版）",
+      "operations": [
+        {
+          "type": "copy_file",
+          "source": "bmad-agile-workflow/commands/bmad-pilot_CN.md",
+          "target": "commands/bmad-pilot.md",
+          "description": "复制中文版 BMAD pilot 命令"
+        },
+        {
+          "type": "copy_file",
+          "source": "bmad-agile-workflow/agents/bmad-po_CN.md",
+          "target": "agents/bmad-po.md",
+          "description": "复制中文版产品负责人智能体"
+        },
+        {
+          "type": "copy_file",
+          "source": "bmad-agile-workflow/agents/bmad-architect_CN.md",
+          "target": "agents/bmad-architect.md",
+          "description": "复制中文版架构师智能体"
+        },
+        {
+          "type": "copy_file",
+          "source": "bmad-agile-workflow/agents/bmad-sm_CN.md",
+          "target": "agents/bmad-sm.md",
+          "description": "复制中文版 Scrum Master 智能体"
+        },
+        {
+          "type": "copy_file",
+          "source": "bmad-agile-workflow/agents/bmad-dev_CN.md",
+          "target": "agents/bmad-dev.md",
+          "description": "复制中文版开发者智能体"
+        },
+        {
+          "type": "copy_file",
+          "source": "bmad-agile-workflow/agents/bmad-review_CN.md",
+          "target": "agents/bmad-review.md",
+          "description": "复制中文版审查员智能体"
+        },
+        {
+          "type": "copy_file",
+          "source": "bmad-agile-workflow/agents/bmad-qa_CN.md",
+          "target": "agents/bmad-qa.md",
+          "description": "复制中文版 QA 智能体"
+        },
+        {
+          "type": "copy_file",
+          "source": "bmad-agile-workflow/agents/bmad-orchestrator_CN.md",
+          "target": "agents/bmad-orchestrator.md",
+          "description": "复制中文版编排器智能体"
+        },
+        {
+          "type": "copy_file",
+          "source": "docs/BMAD-WORKFLOW_CN.md",
+          "target": "docs/BMAD-WORKFLOW.md",
+          "description": "复制中文版 BMAD 工作流文档"
+        },
+        {
+          "type": "copy_file",
+          "source": "docs/QUICK-START_CN.md",
+          "target": "docs/QUICK-START.md",
+          "description": "复制中文版快速开始文档"
+        },
+        {
+          "type": "copy_file",
+          "source": "docs/PLUGIN-SYSTEM_CN.md",
+          "target": "docs/PLUGIN-SYSTEM.md",
+          "description": "复制中文版插件系统文档"
+        }
+      ]
+    }
+  }
+}
